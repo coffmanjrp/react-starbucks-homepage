@@ -41,6 +41,73 @@ svg {
   max-width: 100%;
 }
 
+section a {
+  color: #fff;
+}
+
+/* Padding */
+.py-lg {
+  padding: 40px 0;
+}
+
+.py-md {
+  padding: 20px 0;
+}
+
+.py-sm {
+  padding: 10px 0;
+}
+
+/* Backgrounds */
+.bg-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.bg-extra {
+  background-color: var(--color-extra);
+  color: #000;
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+  color: #fff;
+}
+
+/* Text Styling */
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  margin-bottom: 20px;
+  font-size: 3.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.375rem;
+}
+
+.text-lg {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.text-md {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.text-sm {
+  margin-bottom: 20px;
+  font-size: 1.1875rem;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -79,6 +146,27 @@ svg {
 
 .btn-light-outline:hover {
   background-color: rgba(0, 0, 0, 0.06);
+}
+
+/* Grid Styles */
+.grid-col-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.grid-reversed > *:first-child {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
 }
 
 /* Navbar */
@@ -162,4 +250,39 @@ svg {
 
 .navbar-nav-right li:nth-child(2) {
   margin: 0 5px;
+}
+
+/* Box */
+.box {
+  margin-bottom: 30px;
+}
+
+.box-inner {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.box-text {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 500px;
+  text-align: center;
+}
+
+.box-text .btn {
+  margin-top: 20px;
+}
+
+.box-container .box-text {
+  max-width: 600px;
+}
+
+@media (min-width: 1440px) {
+  .box {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+  }
 }

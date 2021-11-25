@@ -1,9 +1,9 @@
-import boxB from './images/box-b.png';
-import boxC from './images/box-c.png';
-import boxD from './images/box-d.png';
-import boxE from './images/box-e.jpg';
-import boxF1 from './images/box-f1.jpg';
-import boxF2 from './images/box-f2.jpg';
+import BOXB from './images/box-b.png';
+import BOXC from './images/box-c.png';
+import BOXD from './images/box-d.png';
+import BOXE from './images/box-e.jpg';
+import BOXF1 from './images/box-f1.jpg';
+import BOXF2 from './images/box-f2.jpg';
 
 const logo = (
   <svg
@@ -181,12 +181,12 @@ const youtube = (
 );
 
 export {
-  boxB,
-  boxC,
-  boxD,
-  boxE,
-  boxF1,
-  boxF2,
+  BOXB,
+  BOXC,
+  BOXD,
+  BOXE,
+  BOXF1,
+  BOXF2,
   logo,
   marker,
   facebook,
