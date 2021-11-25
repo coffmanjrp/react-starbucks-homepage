@@ -1,4 +1,4 @@
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 import { BoxOne, BoxTwo, BoxThree, BoxContainer } from './components/Box';
 import { boxA, boxB, boxC, boxD, boxE, boxF1, boxF2 } from './data';
 import './App.css';
@@ -16,6 +16,7 @@ function App() {
         <BoxThree {...boxF1} />
         <BoxThree {...boxF2} />
       </BoxContainer>
+      <Footer />
     </div>
   );
 }

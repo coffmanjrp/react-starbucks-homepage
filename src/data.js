@@ -107,3 +107,42 @@ export const boxF2 = {
   background: 'primary',
   btnVariant: 'light-outline',
 };
+
+export const socialLinks = [
+  {
+    id: 1,
+    title: 'Spotify',
+    link: 'https://spotify.com',
+    image: spotify,
+  },
+  {
+    id: 2,
+    title: 'Facebook',
+    link: 'https://facebook.com',
+    image: facebook,
+  },
+  {
+    id: 3,
+    title: 'Pinterest',
+    link: 'https://pinterest.com',
+    image: pinterest,
+  },
+  {
+    id: 4,
+    title: 'Instagram',
+    link: 'https://instagram.com',
+    image: instagram,
+  },
+  {
+    id: 5,
+    title: 'Youtube',
+    link: 'https://youtube.com',
+    image: youtube,
+  },
+  {
+    id: 6,
+    title: 'Twitter',
+    link: 'https://twitter.com',
+    image: twitter,
+  },
+];

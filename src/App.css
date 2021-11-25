@@ -279,6 +279,35 @@ section a {
   max-width: 600px;
 }
 
+/* Footer & Social */
+.footer-container {
+  margin: 0 auto;
+  padding: 0 30px 30px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.social img,
+.social svg {
+  width: 35px;
+  height: 35px;
+}
+
+.social a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
 @media (min-width: 1440px) {
   .box {
     margin-left: auto;
