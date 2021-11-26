@@ -40,6 +40,7 @@ export const boxA = {
   image: null,
   background: 'primary',
   btnVariant: null,
+  isReversed: false,
 };
 
 export const boxB = {
@@ -51,6 +52,7 @@ export const boxB = {
   image: BOXB,
   background: 'secondary',
   btnVariant: 'light-outline',
+  isReversed: false,
 };
 
 export const boxC = {
@@ -62,6 +64,7 @@ export const boxC = {
   image: BOXC,
   background: 'secondary',
   btnVariant: 'light-outline',
+  isReversed: true,
 };
 
 export const boxD = {
@@ -73,6 +76,7 @@ export const boxD = {
   image: BOXD,
   background: 'primary',
   btnVariant: 'light-outline',
+  isReversed: false,
 };
 
 export const boxE = {
@@ -84,6 +88,7 @@ export const boxE = {
   image: BOXE,
   background: 'secondary',
   btnVariant: 'light-outline',
+  isReversed: true,
 };
 
 export const boxF1 = {
@@ -95,6 +100,7 @@ export const boxF1 = {
   image: BOXF1,
   background: 'extra',
   btnVariant: 'dark-outline',
+  isReversed: false,
 };
 
 export const boxF2 = {
@@ -106,6 +112,7 @@ export const boxF2 = {
   image: BOXF2,
   background: 'primary',
   btnVariant: 'light-outline',
+  isReversed: false,
 };
 
 export const socialLinks = [

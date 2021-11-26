@@ -16,8 +16,13 @@ export const BoxTwo = ({
   image,
   background,
   btnVariant,
+  isReversed,
 }) => (
-  <section className={`box bg-${background} grid-col-2`}>
+  <section
+    className={`box bg-${background} grid-col-2${
+      isReversed ? ' grid-reversed' : ''
+    }`}
+  >
     <img src={image} alt={title} />
     <div className="box-text">
       <h2 className="text-xl">{title}</h2>
