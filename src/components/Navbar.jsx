@@ -1,8 +1,8 @@
-import { Button } from '.';
+import { Button, HamburgerButton } from '.';
 import { logo, marker } from '../imports';
 import { navigation } from '../data';
 
-const Navbar = () => {
+const Navbar = ({ showMobileMenu, handleMobileMenu }) => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -30,6 +30,10 @@ const Navbar = () => {
             <Button text="Join now" variant="dark" />
           </li>
         </ul>
+        <HamburgerButton
+          showMobileMenu={showMobileMenu}
+          handleMobileMenu={handleMobileMenu}
+        />
       </div>
     </nav>
   );

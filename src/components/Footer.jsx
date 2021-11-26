@@ -8,7 +8,12 @@ const Footer = () => {
       <div className="footer-container">
         <div className="social">
           {socialLinks.map((item) => (
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <a
+              key={item.id}
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {item.image}
             </a>
           ))}
